@@ -85,7 +85,7 @@ mainMenu:
     subreddit: Reddit
     savegameUnnamed: 이름 없음
     puzzleMode: 퍼즐 모드
-    back: Back
+    back: 뒤로가기
     puzzleDlcText: 공장의 크기를 줄이고 최적화하는 데 관심이 많으신가요? 지금 퍼즐 DLC를 구입하세요!
     puzzleDlcWishlist: 지금 찜 목록에 추가하세요!
     puzzleDlcViewNow: DLC 보러 가기
@@ -93,7 +93,7 @@ mainMenu:
         title: Active Mods
         warningPuzzleDLC: 퍼즐 DLC는 모드와 호환되지 않습니다. DLC 플레이 전 모든 모드를 비활성화 해주세요.
     playingFullVersion: You are now playing the full version!
-    logout: Logout
+    logout: 로그아웃
     noActiveSavegames: No active savegames found - Click play to start a new game!
     playFullVersionV2: Bough shapez on Steam? Play the full version in your Browser!
     playFullVersionStandalone: You can now also play the full version in your Browser!
@@ -1177,7 +1177,7 @@ puzzleMenu:
         easy: 쉬움
         hard: 어러움
         completed: 완료함
-        medium: 중간
+        medium: 보통
         official: 공식
         trending: 오늘의 인기
         trending-weekly: 이 주의 인기
@@ -1195,26 +1195,26 @@ puzzleMenu:
         autoComplete: 퍼즐이 스스로 완료됩니다! 일정 생성기가 만든 도형이 목표 수집기로 바로 들어가고 있는건 아닌지 확인해주세요.
     difficulties:
         easy: 쉬움
-        medium: 중간
+        medium: 보통
         hard: 어려움
-        unknown: Unrated
+        unknown: 등급없음
     dlcHint:
         DLC를 이미 구입하셨나요? 라이브러리에서 shapez.io를 오른쪽 클릭한 다음 속성… > DLC 메뉴를 선택해서
         활성화되었는지 확인해주세요.
     search:
-        action: Search
-        placeholder: Enter a puzzle or author name
-        includeCompleted: Include Completed
+        action: 검색
+        placeholder: 퍼즐 또는 제작자의 이름을 작성해주세요
+        includeCompleted: 불러오기 완료
         difficulties:
-            any: Any Difficulty
-            easy: Easy
-            medium: Medium
-            hard: Hard
+            any: 아무거나
+            easy: 쉬움
+            medium: 보통
+            hard: 어려움
         durations:
             any: Any Duration
-            short: Short (< 2 min)
-            medium: Normal
-            long: Long (> 10 min)
+            short: 짧음 (< 2 분)
+            medium: 보통
+            long: 긴 (> 10 분)
 backendErrors:
     ratelimit: 너무 빠른 시간 내 작업을 반복하고 있습니다. 조금만 기다려 주세요.
     invalid-api-key: 백엔드 서버와 통신할 수 없습니다. 게임을 업데이트하거나 재시작해 주세요 (잘못된 API 키).
@@ -1253,5 +1253,4 @@ mods:
             지금은 mods/ 폴더에 모드 파일을 넣고 빼는 방식으로만 모드를 활성화/비활성화할 수 있습니다. 모드를 이곳에서 켜고
             끌수 있는 기능은 추후 업데이트될 예정입니다. 모드폴더에 넣고/빼는것으로 할수있습니다. 모드를 토글하는 기능은 곧 업데이트
             됩니다!
-    browserNoSupport: Due to browser restrictions it is currently only possible to
-        install mods in the Steam version - Sorry!
+    browserNoSupport: 브라우저의 제한이 있기 때문에 스팀에서 모드를 다운로드 해주세요 - Sorry!
